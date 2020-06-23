@@ -1,0 +1,38 @@
+//
+//  AppUtils.swift
+//  MVVM Example
+//
+//  Created by Viet Anh Dang on 6/22/20.
+//  Copyright © 2020 Cadory. All rights reserved.
+//
+
+import Foundation
+import UIKit
+
+class AppUtils {
+
+    static let screenWidth : CGFloat = UIScreen.main.bounds.size.width
+
+    static let screenHeight : CGFloat = UIScreen.main.bounds.size.height
+
+    static func readJSONFromFile(fileName: String) -> Any?
+    {
+        var json: Any?
+        if let path = Bundle.main.path(forResource: fileName, ofType: "json") {
+            do {
+                let fileUrl = URL(fileURLWithPath: path)
+                // Getting data from JSON file using the file URL
+                let data = try Data(contentsOf: fileUrl, options: .mappedIfSafe)
+                json = try? JSONSerialization.jsonObject(with: data)
+            } catch {
+                // Handle error here
+            }
+        }
+        return json
+    }
+
+    static func isLanguageEn() -> Bool {
+        return Locale.current.languageCode == "en"
+    }
+
+}

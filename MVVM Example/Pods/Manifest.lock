@@ -1,0 +1,74 @@
+PODS:
+  - Alamofire (5.2.1)
+  - ImageSlideshow (1.9.0):
+    - ImageSlideshow/Core (= 1.9.0)
+  - ImageSlideshow/Core (1.9.0)
+  - ImageSlideshow/Kingfisher (1.9.0):
+    - ImageSlideshow/Core
+    - Kingfisher (> 3.0)
+  - IQKeyboardManagerSwift (6.5.5)
+  - Kingfisher (5.14.0):
+    - Kingfisher/Core (= 5.14.0)
+  - Kingfisher/Core (5.14.0)
+  - Realm (5.0.3):
+    - Realm/Headers (= 5.0.3)
+  - Realm/Headers (5.0.3)
+  - RealmSwift (5.0.3):
+    - Realm (= 5.0.3)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxGesture (3.0.2):
+    - RxCocoa (~> 5.1)
+    - RxSwift (~> 5.1)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - SwiftyJSON (5.0.0)
+  - XLPagerTabStrip (9.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - ImageSlideshow
+  - ImageSlideshow/Kingfisher
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - RealmSwift
+  - RxCocoa
+  - RxGesture
+  - RxSwift
+  - SwiftyJSON
+  - XLPagerTabStrip (~> 9.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ImageSlideshow
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - Realm
+    - RealmSwift
+    - RxCocoa
+    - RxGesture
+    - RxRelay
+    - RxSwift
+    - SwiftyJSON
+    - XLPagerTabStrip
+
+SPEC CHECKSUMS:
+  Alamofire: e911732990610fe89af59ac0077f923d72dc3dfd
+  ImageSlideshow: a90cc3568a325cdf1bd543732a2cfcf6361d0dc1
+  IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
+  Kingfisher: 7b64389a43139c903ec434788344c288217c792d
+  Realm: bfca1699b61b0b17c3a69ae0e648314eae91fbdb
+  RealmSwift: 493c9f089cd3893b3959007973c0e4f640906ba0
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxGesture: d6bd7447ca3a596c7a9702a6a2b6a2bb5d8bae54
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  XLPagerTabStrip: 61c57fd61f611ee5f01ff1495ad6fbee8bf496c5
+
+PODFILE CHECKSUM: f24e7d80bd50634443a3557b10f4250483ba4b1c
+
+COCOAPODS: 1.9.3
